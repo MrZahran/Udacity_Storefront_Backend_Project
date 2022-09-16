@@ -21,17 +21,16 @@
 
 - add a `.env` file in the main directory
 
----
-
+NODE_ENV=dev
 POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_PORT_TEST=5433
+DB_PORT=5432
 POSTGRES_DB=**\***
+POSTGRES_TEST=**\***
 POSTGRES_USER=**\***
 POSTGRES_PASSWORD=**\***
 BCRYPT_PASSWORD=**\***
-TOKEN_SECRET=**\***
-SALT_ROUNDS=10
+SECRET_TOKEN=**\***
+PEPER_PASSWORD=**\*\***
 
 ## To Start App
 
